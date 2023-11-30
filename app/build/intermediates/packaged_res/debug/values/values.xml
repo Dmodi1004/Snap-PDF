@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/roboto</item>
+        <item>@font/roboto_bold</item>
+    </array>
+    <color name="black">#FF000000</color>
+    <color name="book_handle">#5E222222</color>
+    <color name="gray">#F3F3F3</color>
+    <color name="light_pink">#FFFCF2F6</color>
+    <color name="purple_200">#4D455D</color>
+    <color name="purple_500">#E96479</color>
+    <color name="purple_700">#BA4F60</color>
+    <color name="shimmer_bg">#B2707070</color>
+    <color name="teal_200">#7DB9B6</color>
+    <color name="teal_700">#7DB9B6</color>
+    <color name="text_gray">#B2222222</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#DDA411</color>
+    <string name="app_name">Snap PDF</string>
+    <string name="description_1">Rich Dad Poor Dad is a personal finance book written by Robert Kiyosaki. The book is based on the author\'s experience of growing up with two father figures, his biological father (Poor Dad) who was highly educated but struggled with finances, and his best friend\'s father (Rich Dad) who was a successful entrepreneur and investor.  The book teaches readers about the importance of financial education and building wealth through assets that generate passive income. Kiyosaki argues that the traditional education system focuses too much on academic education, but neglects financial education, which is crucial for achieving financial independence and success.  Through personal anecdotes and practical examples, Kiyosaki explains the difference between assets and liabilities, the importance of financial literacy</string>
+    <string name="description_10">In this book, author Firas Alkhateeb provides a comprehensive overview of Islamic history, with a focus on the lesser-known aspects of the religion. The book provides insights into the contributions of Muslims to science, philosophy, and art, and challenges misconceptions about Islam.</string>
+    <string name="description_2">James Clear\'s book is a comprehensive guide to building good habits and breaking bad ones. The author shares practical strategies and scientific research on how small changes can lead to big results. The book also emphasizes the importance of creating a system of habits that can be sustained over time.</string>
+    <string name="description_3">In this self-help book, Dr. Phil McGraw offers a step-by-step guide to help readers discover their true selves and become their best selves. The book provides practical advice on how to overcome negative self-talk, manage emotions, and set achievable goals.</string>
+    <string name="description_4">This book by Jolenta Greenberg and Kristen Meinzer is a comical and interesting self improvement guide in light of the hosts encounters with testing different self improvement counsel. The creators give experiences into what works and what does not with regards to personal growth, and proposition functional ways to accomplish individual growth.</string>
+    <string name="description_5">In this book, the author Jürgen Salenbacher challenges readers to think outside the box and embrace creativity. The book provides practical strategies for developing creative thinking skills and unlocking one\'s creative potential.</string>
+    <string name="description_6">This fictional book by Zoey Castile is a romance novel about a burlesque dancer who falls in love with a shy, reserved man. The book explores themes of self-discovery, acceptance, and love.</string>
+    <string name="description_7">In this book, psychologist Jordan B. Peterson offers 12 principles for living a meaningful life. The book provides insights into the human psyche, philosophy, and religion, and offers practical advice for personal growth and fulfillment.</string>
+    <string name="description_8">In this book about reading, author Rohan Joshi shares his passion for reading and provides insights into the benefits of reading. The book offers practical advice on how to develop a reading habit, choose books, and make the most of reading time.</string>
+    <string name="description_9">In this self-help book, author Yasmin Mogahed offers insights into overcoming emotional pain and finding inner peace. The book draws on Islamic teachings and provides practical advice on developing self-awareness, forgiveness, and gratitude.</string>
+    <string name="sample_book_synopsis">Rich Dad Poor Dad is a personal finance book written by Robert Kiyosaki. The book is based on the author\'s experience of growing up with two father figures, his biological father (Poor Dad) who was highly educated but struggled with finances, and his best friend\'s father (Rich Dad) who was a successful entrepreneur and investor.  The book teaches readers about the importance of financial education and building wealth through assets that generate passive income. Kiyosaki argues that the traditional education system focuses too much on academic education, but neglects financial education, which is crucial for achieving financial independence and success.  Through personal anecdotes and practical examples, Kiyosaki explains the difference between assets and liabilities, the importance of financial literacy</string>
+    <string name="sample_book_title">Rich Dad Poor Dad</string>
+    <style name="Base.Theme.SnapPDF" parent="Theme.Material3.DayNight.NoActionBar">
+        
+         <item name="colorPrimary">@color/purple_500</item>
+         <item name="colorPrimaryDark">@color/purple_700</item>
+
+        <item name="fontFamily">@font/roboto</item>
+
+    </style>
+    <style name="Theme.SnapPDF" parent="Base.Theme.SnapPDF"/>
+</resources>
