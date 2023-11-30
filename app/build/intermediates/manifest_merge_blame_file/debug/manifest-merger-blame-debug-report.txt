@@ -12,148 +12,292 @@
 11-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:5:5-66
 11-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:5:22-64
 12
-13    <permission
-13-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-14        android:name="com.example.snappdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-16
-17    <uses-permission android:name="com.example.snappdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-18
-19    <application
-19-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:7:5-39:19
-20        android:allowBackup="true"
-20-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:8:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\1dc4e537ab8bb504569a422ebbb76397\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:9:9-65
-23        android:debuggable="true"
-24        android:extractNativeLibs="false"
-25        android:fullBackupContent="@xml/backup_rules"
-25-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:10:9-54
-26        android:icon="@mipmap/ic_launcher"
-26-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:11:9-43
-27        android:label="@string/app_name"
-27-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:12:9-41
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:13:9-54
-29        android:supportsRtl="true"
-29-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:14:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.SnapPDF" >
-31-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:15:9-45
-32        <activity
-32-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:17:9-19:40
-33            android:name="com.example.snappdf.CategoryActivity"
-33-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:18:13-45
-34            android:exported="false" />
-34-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:19:13-37
-35        <activity
-35-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:20:9-22:40
-36            android:name="com.example.snappdf.PdfActivity"
-36-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:21:13-40
-37            android:exported="false" />
-37-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:22:13-37
-38        <activity
-38-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:23:9-25:40
-39            android:name="com.example.snappdf.DetailsActivity"
-39-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:24:13-44
-40            android:exported="false" />
-40-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:25:13-37
-41        <activity
-41-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:26:9-34:20
-42            android:name="com.example.snappdf.MainActivity"
-42-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:27:13-41
-43            android:exported="true" >
-43-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:28:13-36
-44            <intent-filter>
-44-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:29:13-33:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:30:17-69
-45-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:30:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:32:17-77
-47-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:32:27-74
-48            </intent-filter>
-49        </activity>
-50
-51        <meta-data
-51-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:36:9-38:57
-52            android:name="preloaded_fonts"
-52-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:37:13-43
-53            android:resource="@array/preloaded_fonts" />
-53-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:38:13-54
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:5-79
+15-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:25:5-68
+16-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:25:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+18-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+19    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+19-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+19-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+20    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+20-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+20-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\12a96c0d87eac42e3e9c64975d5f941c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.snappdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\12a96c0d87eac42e3e9c64975d5f941c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\12a96c0d87eac42e3e9c64975d5f941c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.snappdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\12a96c0d87eac42e3e9c64975d5f941c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\12a96c0d87eac42e3e9c64975d5f941c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:7:5-39:19
+29        android:allowBackup="true"
+29-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:8:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] C:\Users\dhruv\.gradle\caches\transforms-3\12a96c0d87eac42e3e9c64975d5f941c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:9:9-65
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:10:9-54
+35        android:icon="@mipmap/ic_launcher"
+35-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:11:9-43
+36        android:label="@string/app_name"
+36-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:12:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:13:9-54
+38        android:supportsRtl="true"
+38-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:14:9-35
+39        android:theme="@style/Theme.SnapPDF" >
+39-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:15:9-45
+40        <activity
+40-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:17:9-19:40
+41            android:name="com.example.snappdf.CategoryActivity"
+41-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:18:13-45
+42            android:exported="false" />
+42-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:19:13-37
+43        <activity
+43-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:20:9-22:40
+44            android:name="com.example.snappdf.PdfActivity"
+44-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:21:13-40
+45            android:exported="false" />
+45-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:22:13-37
+46        <activity
+46-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:23:9-25:40
+47            android:name="com.example.snappdf.DetailsActivity"
+47-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:24:13-44
+48            android:exported="false" />
+48-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:25:13-37
+49        <activity
+49-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:26:9-34:20
+50            android:name="com.example.snappdf.MainActivity"
+50-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:27:13-41
+51            android:exported="true" >
+51-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:28:13-36
+52            <intent-filter>
+52-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:29:13-33:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:30:17-69
+53-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:30:25-66
 54
-55        <provider
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-56            android:name="androidx.startup.InitializationProvider"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-57            android:authorities="com.example.snappdf.androidx-startup"
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-58            android:exported="false" >
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-59            <meta-data
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-61                android:value="androidx.startup" />
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\a556661a689146764731e9df751a8198\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-62            <meta-data
-62-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\dhruv\.gradle\caches\transforms-3\ae2edf1a95a3e8fdbc06da216d0059cf\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-63-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\dhruv\.gradle\caches\transforms-3\ae2edf1a95a3e8fdbc06da216d0059cf\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-64                android:value="androidx.startup" />
-64-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\dhruv\.gradle\caches\transforms-3\ae2edf1a95a3e8fdbc06da216d0059cf\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-65            <meta-data
-65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-66                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-67                android:value="androidx.startup" />
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-68        </provider>
-69
-70        <receiver
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-71            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-72            android:directBootAware="false"
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-73            android:enabled="true"
-73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-74            android:exported="true"
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-75            android:permission="android.permission.DUMP" >
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-76            <intent-filter>
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-77                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-78            </intent-filter>
-79            <intent-filter>
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-80                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-81            </intent-filter>
-82            <intent-filter>
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-83                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-84            </intent-filter>
-85            <intent-filter>
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-86                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\60923cfa70abc032a5558d091fc91012\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-87            </intent-filter>
-88        </receiver>
-89    </application>
-90
-91</manifest>
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:32:17-77
+55-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:32:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <meta-data
+59-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:36:9-38:57
+60            android:name="preloaded_fonts"
+60-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:37:13-43
+61            android:resource="@array/preloaded_fonts" />
+61-->D:\AndroidStudioProjects\SnapPDF\app\src\main\AndroidManifest.xml:38:13-54
+62
+63        <service
+63-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:27:13-84
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:28:13-37
+67            <meta-data
+67-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+68                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+68-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+71                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+71-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-database:20.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\274e295a5008b7ff20b937394239748c\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+73            <meta-data
+73-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+74                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+74-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\fab84535473829018316db17089ac791\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+77                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+77-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\fab84535473829018316db17089ac791\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\fab84535473829018316db17089ac791\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\fab84535473829018316db17089ac791\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+80                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+80-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\fab84535473829018316db17089ac791\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\fab84535473829018316db17089ac791\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\77582d63236e5d4ada3781a1e0e29585\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+83                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+83-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\77582d63236e5d4ada3781a1e0e29585\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\77582d63236e5d4ada3781a1e0e29585\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+86                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+86-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+88        </service>
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dhruv\.gradle\caches\transforms-3\14098736f5abc6b2e2a06f79ec40fd40\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dhruv\.gradle\caches\transforms-3\14098736f5abc6b2e2a06f79ec40fd40\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dhruv\.gradle\caches\transforms-3\14098736f5abc6b2e2a06f79ec40fd40\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dhruv\.gradle\caches\transforms-3\14098736f5abc6b2e2a06f79ec40fd40\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+94
+95        <receiver
+95-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+96            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+96-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+97            android:enabled="true"
+97-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+98            android:exported="false" >
+98-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+99        </receiver>
+100
+101        <service
+101-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+102            android:name="com.google.android.gms.measurement.AppMeasurementService"
+102-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+103            android:enabled="true"
+103-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+104            android:exported="false" />
+104-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+105        <service
+105-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+106            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+106-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+107            android:enabled="true"
+107-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+109            android:permission="android.permission.BIND_JOB_SERVICE" />
+109-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\f440ae34df2c7432db59e65c636da2bd\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+110
+111        <property
+111-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+112            android:name="android.adservices.AD_SERVICES_CONFIG"
+112-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+113            android:resource="@xml/ga_ad_services_config" />
+113-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\dhruv\.gradle\caches\transforms-3\d4bb3d8bbade6b9a19d110491e8a2014\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+114
+115        <provider
+115-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+116            android:name="com.google.firebase.provider.FirebaseInitProvider"
+116-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+117            android:authorities="com.example.snappdf.firebaseinitprovider"
+117-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+118            android:directBootAware="true"
+118-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+119            android:exported="false"
+119-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+120            android:initOrder="100" />
+120-->[com.google.firebase:firebase-common:20.4.2] C:\Users\dhruv\.gradle\caches\transforms-3\f55bd7daf042af1d4dccfc50d9ca0a15\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+121
+122        <uses-library
+122-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\dhruv\.gradle\caches\transforms-3\129d517bb28e33a14e70e4579bddcc11\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+123            android:name="android.ext.adservices"
+123-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\dhruv\.gradle\caches\transforms-3\129d517bb28e33a14e70e4579bddcc11\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+124            android:required="false" />
+124-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\dhruv\.gradle\caches\transforms-3\129d517bb28e33a14e70e4579bddcc11\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+125
+126        <meta-data
+126-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\dhruv\.gradle\caches\transforms-3\f22ec919fb535c8d2128547154dc6699\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+127            android:name="com.google.android.gms.version"
+127-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\dhruv\.gradle\caches\transforms-3\f22ec919fb535c8d2128547154dc6699\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+128            android:value="@integer/google_play_services_version" />
+128-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\dhruv\.gradle\caches\transforms-3\f22ec919fb535c8d2128547154dc6699\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+129
+130        <provider
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\f74c86cd7e61e538f800ee0cd990e25a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+131            android:name="androidx.startup.InitializationProvider"
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\f74c86cd7e61e538f800ee0cd990e25a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+132            android:authorities="com.example.snappdf.androidx-startup"
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\f74c86cd7e61e538f800ee0cd990e25a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+133            android:exported="false" >
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\f74c86cd7e61e538f800ee0cd990e25a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+134            <meta-data
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\f74c86cd7e61e538f800ee0cd990e25a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+135                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\f74c86cd7e61e538f800ee0cd990e25a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+136                android:value="androidx.startup" />
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dhruv\.gradle\caches\transforms-3\f74c86cd7e61e538f800ee0cd990e25a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+137            <meta-data
+137-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\dhruv\.gradle\caches\transforms-3\c7004d39371ef6034e9290ec521d1c92\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+138-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\dhruv\.gradle\caches\transforms-3\c7004d39371ef6034e9290ec521d1c92\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+139                android:value="androidx.startup" />
+139-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\dhruv\.gradle\caches\transforms-3\c7004d39371ef6034e9290ec521d1c92\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+140            <meta-data
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+141                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+142                android:value="androidx.startup" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+143        </provider>
+144
+145        <receiver
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+146            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+147            android:directBootAware="false"
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+148            android:enabled="true"
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+149            android:exported="true"
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+150            android:permission="android.permission.DUMP" >
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+151            <intent-filter>
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+152                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+153            </intent-filter>
+154            <intent-filter>
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+155                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+156            </intent-filter>
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+158                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+161                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\dhruv\.gradle\caches\transforms-3\6cb0c5dea3a27aad41838998d9239dec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+162            </intent-filter>
+163        </receiver>
+164    </application>
+165
+166</manifest>

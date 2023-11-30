@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.snappdf.app-mergeDebugResources-34:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.snappdf.app-mergeDebugResources-41:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\5dc1a826348ecff3cb338bc9ef3ff27e\\transformed\\material-1.10.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\252ac8f3b47f3895b92dded849d1ae5b\\transformed\\material-1.10.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
