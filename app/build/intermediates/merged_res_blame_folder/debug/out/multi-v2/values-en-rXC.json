@@ -4,7 +4,7 @@
             "outputFile": "com.example.snappdf.app-mergeDebugResources-41:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\a1e58881777dcdd6d899ad3e719ef58c\\transformed\\appcompat-1.6.1\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\c09c6b757dc88b4e59de1a94a6b15354\\transformed\\appcompat-1.6.1\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\12a96c0d87eac42e3e9c64975d5f941c\\transformed\\core-1.9.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\10797f52d653d2fb03e556fa9af2bef5\\transformed\\core-1.9.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

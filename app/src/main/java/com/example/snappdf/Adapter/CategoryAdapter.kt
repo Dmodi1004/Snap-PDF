@@ -1,19 +1,21 @@
 package com.example.snappdf.Adapter
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.app.ActivityOptionsCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.snappdf.DetailsActivity
 import com.example.snappdf.Utils.loadOnline
-import com.example.snappdf.ViewModel.BooksModel
+import com.example.snappdf.Models.BooksModel
 import com.example.snappdf.databinding.ItemCategoryBinding
 
 class CategoryAdapter(val list: ArrayList<BooksModel>, val context: Context) :
     RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
 
-    class CategoryViewHolder(private val binding: ItemCategoryBinding) :
+    class CategoryViewHolder(val binding: ItemCategoryBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(model: BooksModel, context: Context) {
             binding.apply {
@@ -26,7 +28,11 @@ class CategoryAdapter(val list: ArrayList<BooksModel>, val context: Context) :
                     Intent().apply {
                         putExtra("book_model", model)
                         setClass(context, DetailsActivity::class.java)
-                        context.startActivity(this)
+                        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(context as Activity,
+                            materialCardView,
+                            materialCardView.transitionName
+                        )
+                        context.startActivity(this, options.toBundle())
                     }
                 }
             }

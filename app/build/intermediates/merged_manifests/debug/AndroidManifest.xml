@@ -14,10 +14,10 @@
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
     <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <permission
         android:name="com.example.snappdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -26,6 +26,7 @@
     <uses-permission android:name="com.example.snappdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
+        android:name="com.example.snappdf.MyBookApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -36,7 +37,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SnapPDF" >
+        android:testOnly="true"
+        android:theme="@style/Theme.SnapPDF"
+        android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.snappdf.CategoryActivity"
             android:exported="false" />
@@ -65,6 +68,12 @@
             android:directBootAware="true"
             android:exported="false" >
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
@@ -87,10 +96,16 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/ga_ad_services_config" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.snappdf.firebaseinitprovider"
+            android:directBootAware="true"
             android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:initOrder="100" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -108,20 +123,14 @@
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <property
-            android:name="android.adservices.AD_SERVICES_CONFIG"
-            android:resource="@xml/ga_ad_services_config" />
-
-        <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.snappdf.firebaseinitprovider"
-            android:directBootAware="true"
-            android:exported="false"
-            android:initOrder="100" />
-
         <uses-library
             android:name="android.ext.adservices"
             android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"

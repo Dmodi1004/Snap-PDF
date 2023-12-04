@@ -12,18 +12,19 @@
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:title="Snap PDF"
-        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Snap PDF"
+        app:titleTextColor="@color/white" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvCategory"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/white"
+        android:transitionName="rvAnim"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

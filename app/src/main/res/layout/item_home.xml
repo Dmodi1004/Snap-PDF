@@ -35,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
+        android:transitionName="rvAnim"
         android:background="@color/white"
         tools:listitem="@layout/item_book"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"

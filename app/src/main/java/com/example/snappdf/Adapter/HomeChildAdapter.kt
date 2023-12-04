@@ -1,13 +1,15 @@
 package com.example.snappdf.Adapter
 
+import android.app.Activity
 import android.content.Context
+import com.example.snappdf.Models.BooksModel
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.app.ActivityOptionsCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.snappdf.DetailsActivity
 import com.example.snappdf.Utils.loadOnline
-import com.example.snappdf.ViewModel.BooksModel
 import com.example.snappdf.databinding.ItemBookBinding
 
 class HomeChildAdapter(val list: ArrayList<BooksModel>, val context: Context) :
@@ -22,24 +24,27 @@ class HomeChildAdapter(val list: ArrayList<BooksModel>, val context: Context) :
                         Intent().apply {
                             putExtra("book_model", model)
                             setClass(context, DetailsActivity::class.java)
-                            context.startActivity(this)
+                            val options = ActivityOptionsCompat.makeSceneTransitionAnimation(context as Activity,
+                                cardView,
+                                cardView.transitionName
+                                )
+                            context.startActivity(this, options.toBundle())
                         }
                     }
                 }
             }
-        }
 
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ChildViewHolder {
         return ChildViewHolder(ItemBookBinding.inflate(LayoutInflater.from(context), parent, false))
     }
 
-    override fun getItemCount(): Int = list.size
+    override fun getItemCount() = list.size
 
     override fun onBindViewHolder(holder: ChildViewHolder, position: Int) {
         val model = list[position]
         holder.bind(model, context)
     }
-
 }

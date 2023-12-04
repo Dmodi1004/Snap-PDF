@@ -4,6 +4,7 @@ package com.example.snappdf.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -21,14 +22,27 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final LinearLayout errorHolder;
+
+  @NonNull
+  public final LayoutErrorBinding errorLayout;
+
+  @NonNull
+  public final LinearLayout loaderHolder;
+
+  @NonNull
   public final RecyclerView rvHome;
 
   @NonNull
   public final Toolbar toolbar;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull RecyclerView rvHome,
-      @NonNull Toolbar toolbar) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull LinearLayout errorHolder,
+      @NonNull LayoutErrorBinding errorLayout, @NonNull LinearLayout loaderHolder,
+      @NonNull RecyclerView rvHome, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
+    this.errorHolder = errorHolder;
+    this.errorLayout = errorLayout;
+    this.loaderHolder = loaderHolder;
     this.rvHome = rvHome;
     this.toolbar = toolbar;
   }
@@ -60,6 +74,25 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.errorHolder;
+      LinearLayout errorHolder = ViewBindings.findChildViewById(rootView, id);
+      if (errorHolder == null) {
+        break missingId;
+      }
+
+      id = R.id.errorLayout;
+      View errorLayout = ViewBindings.findChildViewById(rootView, id);
+      if (errorLayout == null) {
+        break missingId;
+      }
+      LayoutErrorBinding binding_errorLayout = LayoutErrorBinding.bind(errorLayout);
+
+      id = R.id.loaderHolder;
+      LinearLayout loaderHolder = ViewBindings.findChildViewById(rootView, id);
+      if (loaderHolder == null) {
+        break missingId;
+      }
+
       id = R.id.rvHome;
       RecyclerView rvHome = ViewBindings.findChildViewById(rootView, id);
       if (rvHome == null) {
@@ -72,7 +105,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, rvHome, toolbar);
+      return new ActivityMainBinding((ConstraintLayout) rootView, errorHolder, binding_errorLayout,
+          loaderHolder, rvHome, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

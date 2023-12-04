@@ -1,5 +1,6 @@
 package com.example.snappdf.Repository
 
+import android.annotation.SuppressLint
 import android.app.DownloadManager
 import android.content.Context
 import android.content.Context.DOWNLOAD_SERVICE
@@ -14,23 +15,20 @@ class BookRepo(val context: Context) {
 
     private val downloadLd = MutableLiveData<MyResponses<DownloadModel>>()
     val downloadLiveData get() = downloadLd
-
-    val TAG = "Details Activity"
-
+    val TAG = "Details_Activity"
+    @SuppressLint("Range")
     suspend fun downloadPdf(url: String, fileName: String) {
-
-        val file = File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), fileName)
+        val file = File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS),fileName)
         Log.i(TAG, "downloadPdf: ${file.absolutePath}")
-
-        if (file.exists()) {
+        if (file.exists()){
             val model = DownloadModel(
                 progress = 100,
-                isDownload = true,
+                isDownloaded =true ,
                 downloadId = -1,
                 filePath = file.toURI().toString()
             )
             downloadLiveData.postValue(MyResponses.Success(model))
-            Log.i(TAG, "downloadPdf: File already exist")
+            Log.i(TAG, "downloadPdf: File Already Exist")
             return
         }
 
@@ -55,7 +53,6 @@ class BookRepo(val context: Context) {
 
         while (!isDownloaded) {
             val cursor = downloadManager.query(DownloadManager.Query().setFilterById(downloadId))
-
             if (cursor.moveToNext()) {
                 val status = cursor.getInt(cursor.getColumnIndex(DownloadManager.COLUMN_STATUS))
 
@@ -66,16 +63,18 @@ class BookRepo(val context: Context) {
                         if (totalSize > 0) {
                             val downloadedBytesSize =
                                 cursor.getLong(cursor.getColumnIndex(DownloadManager.COLUMN_BYTES_DOWNLOADED_SO_FAR))
-                            progress = ((downloadedBytesSize * 100) / totalSize).toInt()
+                            progress = ((downloadedBytesSize * 100L) / totalSize).toInt()
                             downloadLiveData.postValue(MyResponses.Loading(progress))
                         }
+
                     }
 
                     DownloadManager.STATUS_FAILED -> {
                         val reason =
                             cursor.getInt(cursor.getColumnIndex(DownloadManager.COLUMN_REASON))
                         isDownloaded = true
-                        downloadLiveData.postValue(MyResponses.Error("Failed to Download $fileName \nReason $reason"))
+                        downloadLiveData.postValue(MyResponses.Error("Failed to Download $fileName.\nReason $reason"))
+
                     }
 
                     DownloadManager.STATUS_SUCCESSFUL -> {
@@ -86,11 +85,12 @@ class BookRepo(val context: Context) {
                             cursor.getString(cursor.getColumnIndex(DownloadManager.COLUMN_LOCAL_URI))
                         val model = DownloadModel(
                             progress = progress,
-                            isDownload = isDownloaded,
+                            isDownloaded = isDownloaded,
                             downloadId = downloadId,
                             filePath = filePath
                         )
                         downloadLiveData.postValue(MyResponses.Success(model))
+
                     }
 
                     DownloadManager.STATUS_PENDING -> {
@@ -102,7 +102,10 @@ class BookRepo(val context: Context) {
                         downloadLiveData.postValue(MyResponses.Loading(progress))
                         Log.i(TAG, "downloadPdf: Paused")
                     }
+
+
                 }
+
 
             }
         }
@@ -111,9 +114,8 @@ class BookRepo(val context: Context) {
 
     data class DownloadModel(
         var progress: Int = 0,
-        var isDownload: Boolean,
+        var isDownloaded: Boolean,
         var downloadId: Long,
         var filePath: String
     )
-
 }

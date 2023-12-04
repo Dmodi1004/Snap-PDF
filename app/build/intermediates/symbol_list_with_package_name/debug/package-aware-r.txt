@@ -1462,6 +1462,7 @@ color foreground_material_light
 color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color light_pink
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
@@ -3346,6 +3347,8 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id errorHolder
+id errorLayout
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3390,7 +3393,6 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView2
 id immediateStop
 id included
 id indeterminate
@@ -3413,6 +3415,7 @@ id linear
 id linearLayout
 id listMode
 id list_item
+id loaderHolder
 id lottie_layer_name
 id m3_side_sheet
 id marquee
@@ -3913,6 +3916,7 @@ plurals mtrl_badge_content_description
 raw downloading
 raw firebase_common_keep
 raw loading
+raw tryagain
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4120,6 +4124,7 @@ style Animation_Material3_SideSheetDialog
 style Animation_Material3_SideSheetDialog_Left
 style Animation_Material3_SideSheetDialog_Right
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

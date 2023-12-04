@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="gcm_defaultSenderId" translatable="false">49486917988</string>
-    <string name="google_api_key" translatable="false">AIzaSyBsgGZCqPHx9IRZPF8Fhl-U7HGA5Py7FHo</string>
-    <string name="google_app_id" translatable="false">1:49486917988:android:524cb806b3ae07f7998a71</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBsgGZCqPHx9IRZPF8Fhl-U7HGA5Py7FHo</string>
-    <string name="google_storage_bucket" translatable="false">snap-pdf.appspot.com</string>
-    <string name="project_id" translatable="false">snap-pdf</string>
+    <string name="gcm_defaultSenderId" translatable="false">895265161306</string>
+    <string name="google_api_key" translatable="false">AIzaSyBPljSYJZOBwkim7fXP_yBRTCoWzD3Uhuo</string>
+    <string name="google_app_id" translatable="false">1:895265161306:android:5157df73ad7631ae6ed863</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBPljSYJZOBwkim7fXP_yBRTCoWzD3Uhuo</string>
+    <string name="google_storage_bucket" translatable="false">snap-pdf-7fc1c.appspot.com</string>
+    <string name="project_id" translatable="false">snap-pdf-7fc1c</string>
 </resources>

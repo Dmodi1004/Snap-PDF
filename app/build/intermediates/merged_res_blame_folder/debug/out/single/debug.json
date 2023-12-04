@@ -1,43 +1,59 @@
 [
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_ic_play.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/ic_play.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\raw_tryagain.json.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\raw\\tryagain.json"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_handle.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_handle.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_activity_details.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\activity_details.xml"
     },
     {
         "merged": "com.example.snappdf.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.example.snappdf.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_5.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_5.webp"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_activity_details.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/activity_details.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_item_book.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\item_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_right_arrow.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\right_arrow.xml"
     },
     {
         "merged": "com.example.snappdf.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.example.snappdf.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/raw_loading.json.flat",
-        "source": "com.example.snappdf.app-main-45:/raw/loading.json"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_9.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_9.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_item_category.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/item_category.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_ic_headphone.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\ic_headphone.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_activity_main.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/activity_main.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_1.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_1.webp"
     },
     {
         "merged": "com.example.snappdf.app-merged_res-43:/drawable_ic_launcher_foreground.xml.flat",
@@ -52,112 +68,148 @@
         "source": "com.example.snappdf.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/font_roboto.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/font/roboto.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_4.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_4.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_8.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_8.webp"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_layout_error.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\layout_error.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_right_arrow.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/right_arrow.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_item_home.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\item_home.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_item_bod.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/item_bod.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_ic_previous.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/ic_previous.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\item_category.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_ic_read.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/ic_read.xml"
-    },
-    {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_3.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_3.webp"
-    },
-    {
-        "merged": "com.example.snappdf.app-merged_res-43:/font_roboto_bold.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/font/roboto_bold.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\xml\\data_extraction_rules.xml"
     },
     {
         "merged": "com.example.snappdf.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.example.snappdf.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\raw_loading.json.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\raw\\loading.json"
+    },
+    {
         "merged": "com.example.snappdf.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.example.snappdf.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_activity_pdf.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/activity_pdf.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_ic_next.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/ic_next.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_layout_loading.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\layout_loading.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_9.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_9.webp"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_7.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_7.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_layout_progress.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/layout_progress.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_handle.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_handle.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_item_book.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/item_book.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_ic_previous.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\ic_previous.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_2.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_2.webp"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_6.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_6.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_ic_headphone.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/ic_headphone.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\font_roboto.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\font\\roboto.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_ic_emoji_error.png.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/ic_emoji_error.png"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_activity_pdf.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\activity_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_5.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_5.webp"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_layout_progress.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\layout_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_ic_play.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_ic_emoji_error.png.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\ic_emoji_error.png"
     },
     {
         "merged": "com.example.snappdf.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.example.snappdf.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_1.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_1.webp"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\raw_downloading.json.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\raw\\downloading.json"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_activity_category.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\activity_category.xml"
     },
     {
         "merged": "com.example.snappdf.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.snappdf.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\font_roboto_bold.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\font\\roboto_bold.xml"
+    },
+    {
         "merged": "com.example.snappdf.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.snappdf.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_item_home.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/item_home.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_ic_read.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\ic_read.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_4.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_4.webp"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_8.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_8.webp"
     },
     {
         "merged": "com.example.snappdf.app-merged_res-43:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.example.snappdf.app-main-45:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_layout_loading.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/layout_loading.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "com.example.snappdf.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -168,31 +220,35 @@
         "source": "com.example.snappdf.app-main-45:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/raw_downloading.json.flat",
-        "source": "com.example.snappdf.app-main-45:/raw/downloading.json"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_3.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_3.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_7.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_7.webp"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_10.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_10.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_layout_error.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/layout_error.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/layout_activity_category.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/layout/activity_category.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/xml_backup_rules.xml.flat",
-        "source": "com.example.snappdf.app-main-45:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_ic_next.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\ic_next.xml"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_10.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_10.webp"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\drawable_book_2.webp.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\drawable\\book_2.webp"
     },
     {
-        "merged": "com.example.snappdf.app-merged_res-43:/drawable_book_6.webp.flat",
-        "source": "com.example.snappdf.app-main-45:/drawable/book_6.webp"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-merged_res-43:\\layout_item_bod.xml.flat",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\item_bod.xml"
     }
 ]

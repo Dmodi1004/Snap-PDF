@@ -15,7 +15,7 @@ import com.example.snappdf.Utils.MyResponses
 import com.example.snappdf.Utils.loadOnline
 import com.example.snappdf.View.BookViewModel
 import com.example.snappdf.View.BookViewModelFactory
-import com.example.snappdf.ViewModel.BooksModel
+import com.example.snappdf.Models.BooksModel
 import com.example.snappdf.databinding.ActivityDetailsBinding
 import com.example.snappdf.databinding.LayoutProgressBinding
 
@@ -39,11 +39,11 @@ class DetailsActivity : AppCompatActivity() {
         binding = ActivityDetailsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val book_model = intent.getSerializableExtra("book_model") as BooksModel
+        val bookModel = intent.getSerializableExtra("book_model") as BooksModel
 
         binding.apply {
 
-            book_model.apply {
+            bookModel.apply {
                 bookTitle.text = title
                 authorName.text = author
                 bookDesc.text = description
@@ -51,7 +51,7 @@ class DetailsActivity : AppCompatActivity() {
             }
 
             readBook.setOnClickListener {
-                viewModel.downloadFile(book_model.bookPDF, "${book_model.title}.pdf")
+                viewModel.downloadFile(bookModel.bookPDF, "${bookModel.title}.pdf")
             }
 
             val dialogBinding = LayoutProgressBinding.inflate(layoutInflater)
@@ -95,8 +95,6 @@ class DetailsActivity : AppCompatActivity() {
                     }
                 }
             }
-
         }
-
     }
 }

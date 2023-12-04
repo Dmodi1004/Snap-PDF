@@ -7,6 +7,7 @@ array preloaded_fonts
 color black
 color book_handle
 color gray
+color ic_launcher_background
 color light_pink
 color purple_200
 color purple_500
@@ -50,9 +51,11 @@ id cardView2
 id cardView3
 id categoryTitle
 id childRvBooks
+id errorHolder
+id errorLayout
 id imageView
-id imageView2
 id linearLayout
+id loaderHolder
 id materialCardView
 id materialCardView3
 id materialDivider
@@ -87,6 +90,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 raw downloading
 raw loading
+raw tryagain
 string app_name
 string description_1
 string description_10
@@ -106,6 +110,7 @@ string google_storage_bucket
 string project_id
 string sample_book_synopsis
 string sample_book_title
+style AppTheme
 style Base.Theme.SnapPDF
 style Theme.SnapPDF
 xml backup_rules

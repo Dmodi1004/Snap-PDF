@@ -4,7 +4,7 @@
             "outputFile": "com.example.snappdf.app-mergeDebugResources-41:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\12a96c0d87eac42e3e9c64975d5f941c\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\10797f52d653d2fb03e556fa9af2bef5\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\a1e58881777dcdd6d899ad3e719ef58c\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\c09c6b757dc88b4e59de1a94a6b15354\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

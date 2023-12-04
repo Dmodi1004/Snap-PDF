@@ -5,13 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.airbnb.lottie.LottieAnimationView;
 import com.example.snappdf.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -22,7 +22,7 @@ public final class LayoutErrorBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final ImageView imageView2;
+  public final LottieAnimationView animationView;
 
   @NonNull
   public final TextView textView5;
@@ -30,10 +30,11 @@ public final class LayoutErrorBinding implements ViewBinding {
   @NonNull
   public final Button tryAgainBtn;
 
-  private LayoutErrorBinding(@NonNull LinearLayout rootView, @NonNull ImageView imageView2,
-      @NonNull TextView textView5, @NonNull Button tryAgainBtn) {
+  private LayoutErrorBinding(@NonNull LinearLayout rootView,
+      @NonNull LottieAnimationView animationView, @NonNull TextView textView5,
+      @NonNull Button tryAgainBtn) {
     this.rootView = rootView;
-    this.imageView2 = imageView2;
+    this.animationView = animationView;
     this.textView5 = textView5;
     this.tryAgainBtn = tryAgainBtn;
   }
@@ -65,9 +66,9 @@ public final class LayoutErrorBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView2;
-      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView2 == null) {
+      id = R.id.animation_view;
+      LottieAnimationView animationView = ViewBindings.findChildViewById(rootView, id);
+      if (animationView == null) {
         break missingId;
       }
 
@@ -83,7 +84,7 @@ public final class LayoutErrorBinding implements ViewBinding {
         break missingId;
       }
 
-      return new LayoutErrorBinding((LinearLayout) rootView, imageView2, textView5, tryAgainBtn);
+      return new LayoutErrorBinding((LinearLayout) rootView, animationView, textView5, tryAgainBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

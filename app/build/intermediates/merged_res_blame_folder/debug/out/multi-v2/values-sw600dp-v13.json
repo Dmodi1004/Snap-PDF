@@ -4,7 +4,7 @@
             "outputFile": "com.example.snappdf.app-mergeDebugResources-41:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\252ac8f3b47f3895b92dded849d1ae5b\\transformed\\material-1.10.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\a007a2f1af784f65d8cea792947dc36f\\transformed\\material-1.10.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\a1e58881777dcdd6d899ad3e719ef58c\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\c09c6b757dc88b4e59de1a94a6b15354\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -15,13 +15,13 @@ class PdfActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPdfBinding.inflate(layoutInflater)
-        activity.window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+        this.window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(binding.root)
 
         binding.apply {
-            val book_pdf = intent.getStringExtra("book_pdf").toString()
-            Log.d("TAG", "onCreate: $book_pdf")
-            pdfView.fromUri(Uri.parse(book_pdf))
+            val bookPdf = intent.getStringExtra("book_pdf").toString()
+            Log.d("TAG", "onCreate: $bookPdf")
+            pdfView.fromUri(Uri.parse(bookPdf))
                 .swipeHorizontal(true)
                 .enableSwipe(true)
                 .pageSnap(true)
