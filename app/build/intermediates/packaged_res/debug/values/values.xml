@@ -21,7 +21,7 @@
     <color name="black">#FF000000</color>
     <color name="book_handle">#5E222222</color>
     <color name="gray">#F3F3F3</color>
-    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="ic_launcher_background">#C58585</color>
     <color name="light_pink">#FFFCF2F6</color>
     <color name="purple_200">#4D455D</color>
     <color name="purple_500">#E96479</color>
@@ -48,6 +48,7 @@
     <string name="google_app_id" translatable="false">1:895265161306:android:5157df73ad7631ae6ed863</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBPljSYJZOBwkim7fXP_yBRTCoWzD3Uhuo</string>
     <string name="google_storage_bucket" translatable="false">snap-pdf-7fc1c.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="project_id" translatable="false">snap-pdf-7fc1c</string>
     <string name="sample_book_synopsis">Rich Dad Poor Dad is a personal finance book written by Robert Kiyosaki. The book is based on the author\'s experience of growing up with two father figures, his biological father (Poor Dad) who was highly educated but struggled with finances, and his best friend\'s father (Rich Dad) who was a successful entrepreneur and investor.  The book teaches readers about the importance of financial education and building wealth through assets that generate passive income. Kiyosaki argues that the traditional education system focuses too much on academic education, but neglects financial education, which is crucial for achieving financial independence and success.  Through personal anecdotes and practical examples, Kiyosaki explains the difference between assets and liabilities, the importance of financial literacy</string>
     <string name="sample_book_title">Rich Dad Poor Dad</string>

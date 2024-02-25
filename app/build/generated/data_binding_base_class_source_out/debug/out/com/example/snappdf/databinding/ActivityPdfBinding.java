@@ -11,7 +11,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.snappdf.R;
 import com.github.barteksc.pdfviewer.PDFView;
-import com.google.android.material.card.MaterialCardView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -21,15 +21,15 @@ public final class ActivityPdfBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final MaterialCardView materialCardView3;
+  public final FloatingActionButton mToolsFab;
 
   @NonNull
   public final PDFView pdfView;
 
   private ActivityPdfBinding(@NonNull ConstraintLayout rootView,
-      @NonNull MaterialCardView materialCardView3, @NonNull PDFView pdfView) {
+      @NonNull FloatingActionButton mToolsFab, @NonNull PDFView pdfView) {
     this.rootView = rootView;
-    this.materialCardView3 = materialCardView3;
+    this.mToolsFab = mToolsFab;
     this.pdfView = pdfView;
   }
 
@@ -60,9 +60,9 @@ public final class ActivityPdfBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.materialCardView3;
-      MaterialCardView materialCardView3 = ViewBindings.findChildViewById(rootView, id);
-      if (materialCardView3 == null) {
+      id = R.id.mToolsFab;
+      FloatingActionButton mToolsFab = ViewBindings.findChildViewById(rootView, id);
+      if (mToolsFab == null) {
         break missingId;
       }
 
@@ -72,7 +72,7 @@ public final class ActivityPdfBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPdfBinding((ConstraintLayout) rootView, materialCardView3, pdfView);
+      return new ActivityPdfBinding((ConstraintLayout) rootView, mToolsFab, pdfView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

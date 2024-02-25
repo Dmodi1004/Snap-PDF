@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.snappdf.app-mergeDebugResources-41:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.snappdf.app-mergeDebugResources-45:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\a007a2f1af784f65d8cea792947dc36f\\transformed\\material-1.10.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\a8e3da970e60f72011929091d1551607\\transformed\\material-1.10.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\c09c6b757dc88b4e59de1a94a6b15354\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\4e25441524bf59eb1904fd22c6af7d63\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

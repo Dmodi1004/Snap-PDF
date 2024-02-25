@@ -89,6 +89,7 @@ class DetailsActivity : AppCompatActivity() {
                         Log.i(TAG, "onCreate: Downloaded ${it.data}")
                         Intent().apply {
                             putExtra("book_pdf", it.data?.filePath)
+                            putExtra("book_id", "${bookModel.title}_${bookModel.author}")
                             setClass(activity, PdfActivity::class.java)
                             startActivity(this)
                         }

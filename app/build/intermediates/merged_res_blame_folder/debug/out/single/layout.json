@@ -1,50 +1,74 @@
 [
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\layout_error.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\layout_error.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\item_bod.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\item_bod.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\item_category.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\item_category.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\fragment_bookmarks.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\fragment_bookmarks.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\item_bod.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\item_bod.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\layout_loading.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\layout_loading.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\layout_loading.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\layout_loading.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\item_book.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\item_book.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\fragment_pdf_tools.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\fragment_pdf_tools.xml"
     },
     {
-        "merged": "com.example.snappdf.app-mergeDebugResources-42:/layout/activity_category.xml",
-        "source": "com.example.snappdf.app-main-45:/layout/activity_category.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\item_category.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\item_category.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\activity_category.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\activity_category.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\layout_progress.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\layout_progress.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\activity_pdf.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\activity_pdf.xml"
+        "merged": "com.example.snappdf.app-mergeDebugResources-46:/layout/fragment_notes.xml",
+        "source": "com.example.snappdf.app-main-49:/layout/fragment_notes.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\item_home.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\item_home.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\item_tool.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\item_tool.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\layout_progress.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\layout_progress.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\item_home.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\item_home.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\layout_error.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\layout_error.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-42:\\layout\\activity_details.xml",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-45:\\layout\\activity_details.xml"
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\activity_pdf.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\activity_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\item_book.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\item_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\fragment_notes.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\fragment_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\activity_details.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\activity_category.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\activity_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\item_bookmarks.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\item_bookmarks.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-mergeDebugResources-46:\\layout\\item_notes.xml",
+        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\8.2\\com.example.snappdf.app-main-49:\\layout\\item_notes.xml"
     }
 ]
